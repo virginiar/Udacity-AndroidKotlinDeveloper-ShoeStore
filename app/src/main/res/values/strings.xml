@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="navigation">Navigation</string>
+
+    <!-- Login -->
+    <string name="login">Login</string>
+    <string name="email_label">Email:</string>
+    <string name="email_hint">Enter your email account</string>
+    <string name="password_label">Password:</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login_button">Login</string>
+    <string name="sign_up_button">Sign Up</string>
+
+    <!-- Welcome -->
+    <string name="welcome">Welcome</string>
+    <string name="welcome_title">The Shoe Store</string>
+    <string name="welcome_description">The best shoe store of the world</string>
+    <string name="welcome_button">Instructions</string>
+
+    <!--    Instructions -->
+    <string name="instructions">Instructions</string>
+    <string name="instructions_title">Instructions</string>
+    <string name="instructions_description">Click the button to see the list of shoes. Also add new shoes to the list.</string>
+    <string name="instructions_button">Show shoes</string>
+
+    <!--    Shoe List -->
+    <string name="shoe_list">Shoe List</string>
+    <string name="logout">Logout</string>
+
+    <!--    Shoe Details -->
+    <string name="shoe_detail">Shoe Detail</string>
+    <string name="shoe_name_label">Name:</string>
+    <string name="shoe_name_hint">Name of the shoe</string>
+    <string name="shoe_size_label">Size:</string>
+    <string name="shoe_size_hint">Size of the shoe</string>
+    <string name="shoe_company_label">Company:</string>
+    <string name="shoe_company_hint">Company of the shoe</string>
+    <string name="shoe_description_label">Description:</string>
+    <string name="shoe_description_hint">Description of the Shoe</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+
+</resources>

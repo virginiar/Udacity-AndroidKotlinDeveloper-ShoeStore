@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="shoe"
+            type="com.udacity.shoestore.models.Shoe" />
+    </data>
+
+    <!-- LinearLayout is a good choice for a simple View
+         with only TextViews-->
+    <LinearLayout
+        android:id="@+id/shoe_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:id="@+id/item_shoe_name"
+            style="@style/item_name_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={shoe.name}"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+        <TextView
+            android:id="@+id/item_shoe_size"
+            style="@style/item_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{String.valueOf(shoe.size)}"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="238dp" />
+
+        <TextView
+            android:id="@+id/item_shoe_company"
+            style="@style/item_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={shoe.company}"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="273dp" />
+
+        <TextView
+            android:id="@+id/item_shoe_description"
+            style="@style/input_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{shoe.description}"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="304dp" />
+
+    </LinearLayout>
+</layout>
